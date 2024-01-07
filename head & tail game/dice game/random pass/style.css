@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box
+}
+body{
+    background-image: url(https://cdn.prod.www.spiegel.de/images/62b5f5b8-56ad-41b1-bec5-488926f8d171_w960_r1.778_fpx42.29_fpy50.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    align-content: center;
+}
+.input input{
+
+    width: 300px;
+    padding: 7px;
+}
+#passwordt{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    /* right:px; */
+}
+#passwordt:hover{
+    box-shadow: inset 0 0 10px #000000;
+ 
+}
+.kia:hover{
+    background-color: #000000 !important;
+    color: white !important;
+    box-shadow: 10px 10px 10px gray;
+    padding: 8px !important;
+
+}
+.kia{
+    background-color: rgb(231, 179, 111) !important;
+}
+
+.input{
+    position: relative;
+    /* right: 150px; */
+}
+.copy{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+@media screen and (max-width : 350px) {
+    .input input{
+        width: 100%;
+    }
+}

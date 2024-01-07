@@ -1,0 +1,30 @@
+
+body{
+    background-image: url(https://nationaltoday.com/wp-content/uploads/2021/04/Ramadan1-1200x834.jpg);
+    height: 100vh;
+    /* width: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.timeALL{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ramzan{
+  align-items: center;
+  text-align: center;
+}
+.ramzan h1{
+  color: rgb(235, 235, 125);
+}
+.day,.hours,.min,.sec{
+  display: flex;
+}
+#days,#hour,#minut,#second{
+  color: white;
+}
+.name{
+  color: rgb(167, 111, 134);
+}
