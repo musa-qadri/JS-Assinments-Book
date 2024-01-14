@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 90px;
+  /* background-color: antiquewhite; */
+  /* padding-top: 10px; */
+  text-align: center;
+  align-items: center;
+
+}
+.nav img{
+    width: 60px;
+    height: 80px;
+}
+.nav h1{
+    color: blue !important;
+    font-size: 70px;
+   
+}
+.main{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+.box-calculator{
+    width: 380px;
+    height: 420px;
+    background-color: rgb(233, 232, 232);
+    margin: 0px auto;
+    padding: 5px;
+    margin: 5px;
+}
+.blue{
+    background-color: blue !important;
+    color: white;
+}
+.box-calculator input{
+    width: 98%;
+    background-color: none;
+    height: 55px;
+    font-size: 50px;
+    border: none;
+    
+}
+.row{
+    padding: 1px;
+    margin-top: 10px;
+    margin-left: 3px
+}
+.btn{
+    width: 90px;
+    height: 60px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 2px;
+}
+.but{
+    width: 180px;
+}
+@media only screen and (max-width: 450px) {
+
+
+    .nav img{
+        width: 50px;
+        height: 60px;
+    }
+    .nav h1{
+        color: blue !important;
+        font-size: 50px;
+    }
+    
+    .box-calculator{
+        width: 270px;
+        height: 370px;
+        background-color: rgb(233, 232, 232);
+        margin: 0px auto;
+        padding: 2px;
+        margin: 0px;
+        padding-top: 10px;
+        border-radius: 12px;
+
+    }
+    .box-calculator input{
+        width: 93%;
+        padding: 1px;
+        background-color: none;
+        height: 40px;
+        font-size: 40px;
+        
+    }
+    .row{
+        padding: 1px;
+        /* margin-top: 10px; */
+        /* margin-left: 3px */
+    }
+    .btn{
+        width: 60px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .but{
+        width: 125px;
+    }
+
+}
+
+.footer{
+    color: rgb(7, 3, 248);
+    text-align: center;
+}

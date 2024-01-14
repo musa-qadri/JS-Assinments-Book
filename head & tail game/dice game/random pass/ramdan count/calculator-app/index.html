@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculate</title>
+    
+</head>
+<body>
+    <div class="nav">
+        <h1>Calculator</h1>
+       <a href="https://github.com/musa-qadri?tab=repositories"> <img src="https://icones.pro/wp-content/uploads/2021/06/icone-github-bleu.png" alt=""></a>
+    </div>
+
+    <div class="main" >
+        <div class="box-calculator" id="calculator">
+            <input id="display" >
+        <div class="row" id="key">
+            <button class="btn" onclick="addcalculate('%')">%</button>
+            <button class="btn" onclick="remove()">CE</button>
+            <button class="btn blue" onclick="del()">del</button>
+            <button class="btn" onclick="addcalculate('/')">÷</button>
+        </div>
+        <div class="row" id="key">
+            <button class="btn" onclick="addcalculate('7')">7</button>
+            <button class="btn" onclick="addcalculate('8')">8</button>
+            <button class="btn" onclick="addcalculate('9')">9</button>
+            <button class="btn" onclick="addcalculate('*')">*</button>
+        </div>
+        <div class="row" id="key">
+            <button class="btn" onclick="addcalculate('4')">4</button>
+            <button class="btn" onclick="addcalculate('5')">5</button>
+            <button class="btn" onclick="addcalculate('6')">6</button>
+            <button class="btn" onclick="addcalculate('-')">-</button>
+        </div>
+        <div class="row" id="key">
+            <button class="btn" onclick="addcalculate('1')">1</button>
+            <button class="btn" onclick="addcalculate('2')">2</button>
+            <button class="btn" onclick="addcalculate('3')">3</button>
+            <button class="btn" onclick="addcalculate('+')">+</button>
+        </div>
+        <div class="row" id="key">
+            <button class="btn but" onclick="addcalculate('0')">0</button>
+            <button class="btn" onclick="addcalculate('.')">.</button>
+            <button class="btn blue" onclick="calculate()">=</button>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <h1>© 2024 Made by Muhammad Musa|All<br>Rigth Reserved|</h1>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
