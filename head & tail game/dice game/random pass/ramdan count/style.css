@@ -27,4 +27,5 @@ body{
 }
 .name{
   color: rgb(167, 111, 134);
+  text-align: center;
 }

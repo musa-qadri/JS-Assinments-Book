@@ -5,10 +5,11 @@ body{
     align-items: center;
     align-content: center;
     margin: 0px;
+    height: 610px;
 }
 .main{
      width: 100%;
-    align-items: center;
+     align-items: center;
         
 }
 .box h1{
@@ -19,13 +20,13 @@ body{
     background-color: rgb(26, 22, 22);
 }
 .box{
-    width: 550px;
+    width: 60%;
     background-color: rgb(14, 13, 13);
-    padding: 25px;
+    padding: 20px;
     border-radius: 20px;
     margin: auto;
     align-items: center;
-    margin-top: 170px;
+    margin-top: 190px;
 }
 .box a{
     text-decoration: none;

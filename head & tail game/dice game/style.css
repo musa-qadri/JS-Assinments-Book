@@ -3,13 +3,14 @@ body{
     margin: 0px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
 }
 .main{
     align-items: center;
     width: 100%;
 }
 .box{
-    background-color: white;
+    background-color: rgb(138, 228, 240);
     width:570px;
     text-align: center;
     margin-top: 100px !important;
@@ -54,4 +55,22 @@ body{
     font-size: larger;
     text-decoration: none;
   
+}
+
+@media only screen and (max-width:350px) {
+    .box{
+        background-color: rgb(138, 228, 240);
+        width:95%;
+        text-align: center;
+        margin-top: 100px !important;
+        margin: 0px auto ;
+        padding: 10px 0px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+
+    .box img{
+        width: 200px;
+    }
+
+
 }
