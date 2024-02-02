@@ -1,2 +1,2 @@
 JS-Assinment-Book
-1.https://assinment-book-work.netlify.app/
+1.https://assinmennts-boook.netlify.app/
