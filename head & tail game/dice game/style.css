@@ -1,25 +1,27 @@
 body{
-    background-image: url(https://www.poornima.edu.in/wp-content/uploads/2023/08/what-is-the-dice-game-in-casino_56e3ebff9.jpg);
+    background-image: url(https://media.istockphoto.com/id/525032572/photo/gambling-craps-game.jpg?s=612x612&w=0&k=20&c=ZAKkfyvjwiwbl-k3OCNY5B4naMZm7lKii_p4yp_whnc=);
     margin: 0px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: black;
+    background-color: rgb(218, 209, 209);
+    height: 60vh;
 }
 .main{
     align-items: center;
     width: 100%;
 }
 .box{
-    background-color: rgb(138, 228, 240);
+    background-color: transparent;
     width:570px;
     text-align: center;
     margin-top: 100px !important;
     margin: 0px auto;
     padding: 30px 18px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(64, 226, 23) 0px 0px 20px 20px;
+
 }
 .box h1{
-    color: rgb(245, 140, 3);
+    color: rgb(17, 243, 9);
 }
 
 .box img{
@@ -40,7 +42,7 @@ body{
 }
 .btn1{
     background: linear-gradient(to right, rgba(255,0,0,0), rgb(6, 76, 182));
-    color: rgb(9, 56, 59);
+    color: rgb(239, 241, 241);
     width: 240px;
     height: 30px;
     border-radius: 10px;
@@ -54,23 +56,41 @@ body{
 .ancor{
     font-size: larger;
     text-decoration: none;
-  
+    color: aliceblue;
 }
 
-@media only screen and (max-width:350px) {
+@media only screen and (max-width:400px) {
     .box{
-        background-color: rgb(138, 228, 240);
-        width:95%;
+        background-color: transparent;
+        width:85%;
         text-align: center;
-        margin-top: 100px !important;
+        margin-top: 50px !important;
         margin: 0px auto ;
-        padding: 10px 0px;
-        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        padding: 42px 0px !important;
+        box-shadow: rgb(64, 226, 23) 0px 0px 20px 20px;
     }
 
     .box img{
-        width: 200px;
+        width: 100px;
     }
-
+    
+    .btn1{
+        background: linear-gradient(to right, rgba(255,0,0,0), rgb(6, 76, 182));
+        color: rgb(215, 221, 221);
+        width: 90%;
+        height: 27px;
+        border-radius: 10px;
+        font-size: 16px !important;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    .btn1:hover{
+        background: linear-gradient(to right, rgba(255,0,0,0), rgb(182, 6, 167));
+    
+    }
+    body{
+        height: 90vh;
+    }
+    
+    
 
 }
