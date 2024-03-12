@@ -1,0 +1,147 @@
+ body{
+  margin-bottom: 50px !important;
+} 
+.main {
+    width: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    /* margin: 30px 0px; */
+  }
+  
+.color{
+    background-color: rgb(0, 217, 255) !important;
+    position: fixed !important;
+    z-index: 1 !important;
+    width: 100%;
+}
+.bold{
+    font-size: 25px !important;
+    font-weight: 700;
+}
+.bold span{
+    color: rgb(248, 248, 248);
+}
+.colorbtn{
+    margin-right: 10px;
+    background-color: rgb(135, 166, 222) !important;
+    color: rgb(250, 247, 247) !important;
+    border-color: black !important;
+}
+.options{
+    margin-right: 20px !important;
+    padding: 10px;
+    border-radius: 10px;
+}
+.row1{
+  
+    align-items: center !important;
+    text-align: center !important;
+    align-content: center !important;
+    margin-top: 120px !important;
+}
+.cart{
+    background-color: none !important;
+    border: none !important;
+}
+.cart:hover{
+    box-shadow: rgba(0, 0, 0, 0.274) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 105% !important;
+}
+.card-img-top{
+   width: 100%;
+   height: 200px;
+   object-fit: contain;
+}
+.no{
+    margin-top: 180px !important;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 0px 2px 2px gray;
+
+}
+
+ 
+.row{
+    width: 90% !important;
+    margin: 0px auto !important ;
+    align-items: center !important;
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.red{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: red;
+}
+.black{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+.blue{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: blue;
+}
+.silver{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: silver;
+    border: 1px solid black;
+    
+}
+.white{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: black;
+    border: 1px solid black;
+
+}
+.al{
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 600px)  {
+   
+    .options{
+     
+        text-align: center;
+        align-content: center;
+        
+    }
+    .aline{
+        justify-content: center !important;
+        width: 100%;
+        margin: 0px auto;
+    }
+    .row1{
+        width: 100% ;
+    }
+    .cart{
+        width: 100% !important;
+        margin: 0px auto !important;
+    }
+    .cart:hover{
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        width: 280px !important;
+    }
+    
+    .hi{
+        flex-direction: column;
+        
+    }
+    .hide{
+        display: none;
+    }
+
+}
